@@ -12,6 +12,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import static one.digitalinnovation.personapi.utils.PersonUtils.createFakeDTO;
+import static one.digitalinnovation.personapi.utils.PersonUtils.createFakeEntity;
 import static org.codehaus.groovy.runtime.DefaultGroovyMethods.any;
 
 @ExtendWith(MockitoExtension.class)
