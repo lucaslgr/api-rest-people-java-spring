@@ -29,7 +29,6 @@ public class Person {
     @Column(nullable = false, unique = true)
     private String cpf;
 
-    @Column(nullable = false)
     private LocalDate birthDate;
 
     //FetchType.LAZY faz com que só seja buscado no banco a lista de telefones quando ela em específico for requerida
